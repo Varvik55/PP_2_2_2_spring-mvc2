@@ -1,10 +1,11 @@
 package web.servis;
 
-import org.springframework.stereotype.Component;
+
+import org.springframework.stereotype.Service;
 import web.model.Car;
 
 import java.util.List;
-@Component
+@Service
 public class ServisCarsImp implements ServisCars{
 
     private List <Car> listCar = List.of(new Car("Marka1","model1",1)
